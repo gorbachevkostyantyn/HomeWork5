@@ -197,17 +197,7 @@ background-color:#1b5288;
 
 }
 
-.vibrant input{
 
-background-color:#1b5288; 
-
-}
-
-.vibrant {
-
-padding-top: 5px;
-
-}
 
 .buttondown {
 
@@ -261,7 +251,9 @@ padding: 80px 0 0 120px;
 
 }
 
+input[type="submit"] {
 
+border: none;
 
-
+}
 

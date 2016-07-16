@@ -5,7 +5,7 @@
 	<title>"Cadastre"</title>
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
-  <script src="js/script.js"></script>
+        <script src="js/script.js"></script>
 </head>
 
 <body>
@@ -55,33 +55,35 @@
         <img src="img/14.png" alt="signup">
       </div> 
 
+<form action="/">
       <div class="datafield">                
-        <form class="vibrant" action="/">
-          <input class="text" name="First Name" value="First Name" required="" onFocus="doClear(this)" onBlur="doDefault(this)">
-            </form>  
+        
+          <input type="text" class="text" name="login" placeholder="First Name" autofocus="" onFocus="doClear(this)" onBlur="doDefault(this)">
+             
       </div> 
 
       <div class="datafield">                
-        <form action="/">
-          <input class="text" name="Last Name" value="Last Name" required="" onFocus="doClear(this)" onBlur="doDefault(this)">
-        </form>  
+          
+          <input type="text" class="text" name="login" placeholder="Last Name" onFocus="doClear(this)" onBlur="doDefault(this)">
+        
       </div>    
 
       <div class="datafield">                
-        <form action="/">
-          <input class="text" name="Email Address" value="Email Address" required="" onFocus="doClear(this)" onBlur="doDefault(this)">
-        </form>  
+       
+          <input type="text" class="text" name="login" placeholder="Email Address" onFocus="doClear(this)" onBlur="doDefault(this)">
+      </div>   
+      
+
+      <div class="datafield">                
+      
+          <input type="text" class="text" name="login" placeholder="Choose Password"  onFocus="doClear(this)" onBlur="doDefault(this)">
+      
       </div> 
 
       <div class="datafield">                
-        <form action="/">
-          <input class="text" name="Choose Password"  required="" placeholder="Choose Password"> 
-      </div> 
-
-      <div class="datafield">                
-        <form action="/">
-          <input class="text" name="Password Confirm" value="Password Confirm" required="" onFocus="doClear(this)" onBlur="doDefault(this)">
-        </form>  
+      
+          <input class="text" name="login" value="Password Confirm" onFocus="doClear(this)" onBlur="doDefault(this)">
+        
       </div> 
 
 
@@ -89,10 +91,12 @@
         <span><input type="checkbox" name="Send me Youbike updates and tips">Send me Youbike updates and tips</span>
       </div> 
 
-
       <div class="buttondown">                
-        <a href="https://www.facebook.com" class="button">Create my Account</a>
+        <input type="submit" class="button" value="Create my Account">
+
       </div> 
+
+</form>
 
       <div class="signup">
         <img src="img/12.png" alt="signup">
