@@ -27,20 +27,11 @@ td {border: 15px solid black;
   width: 130px;
 }
 .col3 {
-  width: 130px;
-}
-.col4 {
-  width: 310px;
-}
-.col5 {
-  width: 150px;
-}
-.col6 {
-  width: 150px;
+  width: 270px;
 }
 
-.col7 {
-  width: 270px;
+.col4 {
+  width: 230px;
 }
 
 .row1 {
@@ -50,14 +41,14 @@ td {border: 15px solid black;
   height: 250px;
 }
 .row3 {
-  height: 250px;
+  height: 70px;
 }
 .row4 {
   height: 100px;
 }
 .row5 {
  
-  height: 80px;
+  height: 60px;
 }
 
 
